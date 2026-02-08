@@ -1,4 +1,4 @@
-# Telecom Customer Churn Prediction with Machine Learning Pipeline
+# Telecom Customer Churn Prediction Using XGBoost
 
 ## Project Overview
 
