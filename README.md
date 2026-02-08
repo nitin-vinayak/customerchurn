@@ -61,22 +61,6 @@ Pipeline Configuration:
 * **77% Recall**: Catching 77% of actual churners
 * **86% FP Reduction**: Massive decrease in false alarms (110→15 customers)
 
-## Model Performance
-
-### Forecast Accuracy Comparison
-
-| Model | AUC | Precision (Churn) | Recall (Churn) | F1-Score | Improvement |
-|-------|-----|-------------------|----------------|----------|-------------|
-| Logistic Regression | 0.7917 | 0.29 | 0.77 | 0.42 | Baseline ✓ |
-| **XGBoost** | **0.9012** | **0.75** | **0.77** | **0.76** | **+13.8%** ✓ |
-
-### Performance Highlights
-
-* **90.12% AUC**: Excellent discriminative ability between churners and non-churners
-* **75% Precision**: 3 out of 4 churn predictions are correct
-* **77% Recall**: Catching 77% of actual churners
-* **86% FP Reduction**: Massive decrease in false alarms (110→15 customers)
-
 ### Confusion Matrix (XGBoost)
 
 ```
